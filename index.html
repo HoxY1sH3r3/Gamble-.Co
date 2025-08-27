@@ -9,12 +9,22 @@
   <h1>🎲 Lucky Arcade 🎲</h1>
   <p id="balance">Balance: 1000</p>
 
-  <button onclick="coinFlip()">Flip Coin</button>
-  <button onclick="rollDice()">Roll Dice</button>
-  <button onclick="slotMachine()">Spin Slot</button>
+  <div>
+    <button onclick="coinFlip()">Flip Coin</button>
+    <button onclick="rollDice()">Roll Dice</button>
+    <button onclick="slotMachine()">Spin Slot</button>
+  </div>
 
   <h2>🛒 Store</h2>
   <div id="store"></div>
+
+  <h2>🎟️ Inventory</h2>
+  <ul id="inventory"></ul>
+
+  <h2>💡 Redeem Code</h2>
+  <input id="codeInput" placeholder="Enter code">
+  <button onclick="redeemCode()">Redeem</button>
+  <p id="codeMessage"></p>
 
   <script src="script.js"></script>
 </body>
