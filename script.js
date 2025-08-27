@@ -14,7 +14,7 @@ const codes = {
   "FREE100": () => balance += 100,
   "MEGABOOST": () => inventory.push("5x Multiplier (One-Time)"),
   "SECRET": () => balance += 1000,
-  "OWNER": () => balance += 100000000000000000,
+  "OWNER": () => balance += 100000000000000000
 };
 
 let hasLuckyCharm = false;
